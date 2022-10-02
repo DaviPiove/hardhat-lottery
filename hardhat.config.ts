@@ -16,6 +16,9 @@ const config: HardhatUserConfig = {
 		hardhat: {
 			chainId: 31337,
 		},
+		localhost: {
+			chainId: 31337,
+		},
 		goerli: {
 			chainId: 5,
 			url: GOERLI_RPC_URL,
